@@ -78,7 +78,7 @@
   position: absolute;
   right: 0;
   bottom: -10px;
-  color: #6c63ff;
+  color: #00ff22;
 }
 
 .prt_about_learnbox_info {
@@ -95,11 +95,11 @@
   color: #000;
   text-transform: capitalize;
   margin-bottom: 10px;
-  color: #868e96;
+  color: rgb(187, 255, 0);
 }
 .prt_about_learnbox_info p {
   margin: 0;
-  color: #868e96;
+  color: rgb(187, 255, 0);
 }
 .prt_about_learnbox_right {
   display: table;
@@ -173,7 +173,7 @@
 .prt_about_learnbox_year h1 {
   font-size: 60px;
   margin: 0;
-  color: #a1bcd8;
+  color: rgb(187, 255, 0);
   font-weight: 500;
 }
 
@@ -239,7 +239,7 @@
 
 .prt_about_learnbox_right:hover:after {
   background-color: #fff;
-  border: 3px solid #6c63ff;
+  border: 3px solid #00ff22;
   -o-transition: all .3s;
   transition: all .3s
 }
@@ -286,14 +286,14 @@
 
 .prt_about_learnbox_left:hover:after {
   background-color: #fff;
-  border: 3px solid #6c63ff;
+  border: 3px solid #00ff22;
   -o-transition: all .3s;
   transition: all .3s
 }
 
 .prt_about_learnbox_left:hover .prt_about_learnbox_year h1,
 .prt_about_learnbox_right:hover .prt_about_learnbox_year h1 {
-  color: #6c63ff;
+  color: #00ff22;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -ms-transition: all .3s;
