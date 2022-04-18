@@ -11,23 +11,23 @@ export class ProjectsComponent implements OnInit {
   projects2 = [];
   projects3 = [
     {
-      link: "https://github.com/sarthakgoenka/portfolio",
+      link: "https://github.com/RtjShreyD/iot-flask-redis-sse",
     },
     {
       link: "",
     },
     {
-      link: "https://natours-8aa57.web.app/",
+      link: "https://github.com/RtjShreyD/Digital-Marketplace_DApp",
     },
     {
       link:""
     },
     {
 
-      link: "http://node-room-chat.herokuapp.com/",
+      link: "https://github.com/RtjShreyD/fabric-remote-shell",
     },
     {
-      link: "https://personal-doc.herokuapp.com/",
+      link: "https://github.com/RtjShreyD/Reverse_Shell_Python_sockets",
 
     }
   ]
@@ -39,7 +39,7 @@ export class ProjectsComponent implements OnInit {
     this.apollo.query<any>({
       query: gql`
       {
-      user(login: "sarthakgoenka") {
+      user(login: "rtjshreyd") {
         pinnedItems(first: 6, types: [REPOSITORY]) {
           totalCount
           edges {
