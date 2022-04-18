@@ -1,7 +1,7 @@
 
 .experience-card {
   position: relative;
-  background-color: rgb(255, 255, 255);
+  background-color: #343a40;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
@@ -9,6 +9,7 @@
 
 .experience-card:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  background-color: rgb(187, 255, 0);
 }
 
 .experience-banner {
@@ -59,7 +60,7 @@
   text-align: center;
   padding: 1.5rem;
   margin: 0;
-  color: #fff;
+  color: black;
   font-size: 25px;
   text-align: center;
   font-weight: 700;
@@ -84,7 +85,7 @@
 
 .experience-text-role {
   text-align: center;
-  color: black;
+  color: white;
   font-weight: 700;
   font-size: 25px;
   margin: 0px;
@@ -94,7 +95,7 @@
 
 .experience-text-date {
   text-align: center;
-  color: black;
+  color: white;
   font-size: 20px;
   margin: 0px;
   padding-top: 1rem;
@@ -107,11 +108,24 @@
   line-height: normal;
 }
 .subTitle {
-  color: #868e96;
+  color: white;
 }
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
+}
+
+
+.experience-card:hover .experience-text-role{
+  color: black;
+}
+
+.experience-card:hover  .experience-text-date{
+  color: black;
+}
+
+.experience-card:hover  .subTitle{
+  color: black;
 }
 
 /* Media Query */

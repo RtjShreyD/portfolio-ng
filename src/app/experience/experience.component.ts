@@ -13,7 +13,7 @@ export class ExperienceComponent implements OnInit {
       {
         role: "Python Developer",
         company: "APYL Software Solutions Ltd",
-        color: "yellow",
+        color: 'white',
         companylogo: "../../../assets/images/apyl.jpeg",
         date: "Present",
         // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -26,7 +26,7 @@ export class ExperienceComponent implements OnInit {
       {
         role: "Lead Engineer R&D",
         company: "Morphedo Technologies Pvt Ltd",
-        color: "blue",
+        color: 'white',
         companylogo: "../../../assets/images/morphedo.png",
         date: "Aug 2019 – September 2020",
         desc: "Product building, team building and management",
@@ -38,7 +38,7 @@ export class ExperienceComponent implements OnInit {
       {
         role: "Chief Technical Consultant",
         company: "EBibil Technologies Pvt Ltd",
-        color: "#fffff",
+        color: 'white',
         companylogo: "../../../assets/images/ebibil.png",
         date: "Dec 2018 – Present",
         desc: "Building startup ventures in logistics and ed-tech",
