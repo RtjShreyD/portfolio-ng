@@ -11,21 +11,26 @@ export class SkillProgressComponent implements OnInit {
     viewSkillBars: true,
     experience: [
       {
-        Stack: "Frontend/Design",
-        progressPercentage: "75%"
+        Stack: "Backend development and system design",
+        progressPercentage: "80%"
       },
       {
-        Stack: "Backend",
+        Stack: "Frontend/Design",
         progressPercentage: "60%"
       },
       {
-        Stack: "Programming",
+        Stack: "DevOps",
+        progressPercentage: "50%"
+      },
+      {
+        Stack: "IOT and electronics",
         progressPercentage: "60%"
       },
       {
         Stack: "MachineLearning/AI",
         progressPercentage: "30%"
       }
+
     ]
   };
   constructor() { }
