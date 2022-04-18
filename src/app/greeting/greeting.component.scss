@@ -115,9 +115,9 @@ p {
   }
 }
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
-  color: white;
+  background-color:  rgb(187, 255, 0);
+  border: solid 1px #00ff22;
+  color: black;
   font-weight: 700;
   width: max-content;
   padding: 13px 22px;
@@ -133,7 +133,7 @@ p {
   transition: all .3s ease-in-out 0s;
 }
 .main-button:hover {
-  background-color: #ffffff;
+  background-color: #00ff22;
   color: black;
   transition: all .3s ease 0s;
   transform: translateY(-3px);

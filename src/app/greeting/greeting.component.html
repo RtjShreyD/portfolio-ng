@@ -1,13 +1,13 @@
-
-<div class="greet-main" id="greeting">
+<div class="container-fluid p-5">
+<div class="greet-main" id="greeting" >
   <div class="greeting-main"  wmAnimate="fadeInUp" aos speed="normal">
     <div class="greeting-text-div">
       <div>
-        <h1 class="greeting-text">
+        <h1 class="greeting-text" style="color: rgb(187, 255, 0)">
           {{greeting.title}}
           <span class="wave-emoji">👋</span>
         </h1>
-        <p class="greeting-text-p subTitle">{{greeting.subTitle}}</p>
+        <p class="greeting-text-p subTitle text-white">{{greeting.subTitle}}</p>
             <app-social-media></app-social-media>
         <div class="button-greeting-div">
 <!--        button-->
@@ -23,7 +23,8 @@
       </div>
     </div>
     <div class="greeting-image-div">
-      <img src="../../assets/images/manOnTable.svg" alt="Sarthak sitting on table">
+      <img src="../../assets/images/activity.svg" alt="Sarthak sitting on table">
     </div>
   </div>
+</div>
 </div>
