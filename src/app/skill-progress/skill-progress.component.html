@@ -1,8 +1,8 @@
 <div class="skills-container" *ngIf="techStack.viewSkillBars" wmAnimate="fadeInUp" aos speed="normal">
   <div class="skills-bar">
-    <h1 class="skills-heading">Proficiency</h1>
+    <h1 class="skills-heading" style="color: rgb(187, 255, 0)">Proficiency</h1>
     <div class="skill" *ngFor="let exp of techStack.experience">
-      <p>{{exp.Stack}}</p>
+      <p class="text-white">{{exp.Stack}}</p>
       <div class="meter">
         <span [style]=progressStyle(exp.progressPercentage)></span>
       </div>
@@ -10,7 +10,7 @@
   </div>
 
   <div class="skills-image">
-    <img alt="Skills" src="../../assets/images/skill.svg" >
+    <img alt="Skills" src="../../assets/images/proff.svg" >
   </div>
 
 </div>
